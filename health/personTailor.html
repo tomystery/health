@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>私人调理</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/public.css" />
+	<link rel="stylesheet" href="css/personTailor.css" />
+	<body>
+	<div class="header clearfix">
+		<div class="t_r ">
+			<a href="privateDaily.html" >
+				<img src="images/oroder.png" alt=""/>
+				日常记录
+			</a>
+		</div>
+		<div class="t_l on">
+			<a href="personTailor.html" style="color: #30a674">
+				<img src="images/foodtop.png" alt=""/>
+				症状调理
+			</a>
+		</div>
+	</div>
+		<div class="content warp">
+			<ul>
+				<li class="clearfix">
+					<div class="nominate clearfix">
+						<img src="images/light.png"/>
+						<span>根据你的<b>痰湿体质</b>推荐</span>
+					</div>
+					<img src="images/tu1.png"/>
+					<div class="substance">
+						<div class="pname">五珍粥</div>
+						<p>健脾祛湿 补肾益气</p>
+						<div class="price">￥36.50 </div>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="nominate clearfix">
+						<img src="images/light.png"/>
+						<span>根据你的<b>痰湿体质</b>推荐</span>
+					</div>
+					<img src="images/tu2.png"/>
+					<div class="substance">
+						<div class="pname">温县铁棍山药</div>
+						<p>补脾养胃 生津益肺</p>
+						<div class="price">￥150.00 </div>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="nominate clearfix">
+						<img src="images/light.png"/>
+						<span>根据你的<b>痰湿体质</b>推荐</span>
+					</div>
+					<img src="images/tu3.png"/>
+					<div class="substance">
+						<div class="pname">苓陈益中丸</div>
+						<p>厨师健脾 益气和中</p>
+						<div class="price">￥98.50 </div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+
+	<div class="shopping">
+		<a href="shoppingCar.html">
+			<img src="images/shopping.png"/>
+			<span class="count">0</span>
+		</a>
+	</div>
+	<div class="footer">
+		<ul class="wrap clearfix">
+			<li><a href="pageHome.html">首页</a></li>
+			<li><a href="foodFang.html">食疗坊</a></li>
+			<li class="active"><a href="privateDaily.html">私人订制</a></li>
+			<li><a href="own.html">我的</a></li>
+		</ul>
+	</div>
+
+	</body>
+	<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		var count=$('.count').html();
+		$('.content li').click(function(){
+			++count;
+			$('.count').html(count);
+		})
+	</script>
+</html>

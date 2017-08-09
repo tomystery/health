@@ -1,0 +1,85 @@
+body {
+  background: #f1f1f1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.top {
+  height: 1.2rem;
+  background: #43bf92;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.top .comeback,
+.top .toptext,
+.comeback img {
+  float: left;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.top .over {
+  float: right;
+  font-size: 0.4rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  margin-right: 0.13333333rem;
+}
+.top .comeback {
+  font-size: 0.4rem;
+}
+.top .comeback img {
+  margin-top: 0.37333333rem;
+  margin-right: 0.13333333rem;
+}
+.toptext {
+  font-size: 0.48rem;
+  margin-left: 25%;
+}
+.content {
+  margin: 0.46666667rem 0;
+  background: #fff;
+}
+.content li {
+  font-size: 0.4rem;
+  line-height: 1rem;
+  height: 1rem;
+  padding: 0 0.13333333rem;
+  border-bottom: 0.01333333rem solid #f1f1f1;
+}
+.content li input {
+  line-height: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.34666667rem;
+  text-align: right;
+  width: 90%;
+}
+.content li img {
+  float: right;
+  margin-top: 0.30666667rem;
+}
+.content .allbtn {
+  float: right;
+  overflow: hidden;
+  line-height: 1rem;
+  margin-top: 0.2rem;
+}
+.content .allbtn .btn {
+  float: left;
+  font-size: 0.34666667rem;
+  color: #868686;
+  line-height: 0.4rem;
+  padding: 0.06666667rem 0.13333333rem;
+  width: 0.6rem;
+  text-align: center;
+  border: 1px solid #868686;
+  border-radius: 0.6rem;
+}
+.content .allbtn .on {
+  border: 1px solid #43bf92;
+  color: #43bf92;
+}

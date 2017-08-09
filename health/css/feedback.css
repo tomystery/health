@@ -1,0 +1,81 @@
+.header img {
+  float: left;
+  width: 0.4rem;
+  height: 0.64rem;
+  margin-top: -0.01333333rem;
+}
+.header {
+  height: 1.2rem;
+  box-sizing: border-box;
+  background-color: #43bf92;
+  padding-top: 0.34666667rem;
+  padding-left: 0.26666667rem;
+  padding-right: 0.26666667rem;
+}
+.header span {
+  display: block;
+  width: 1.38666667rem;
+  float: left;
+  font-size: 0.46666667rem;
+  color: white;
+}
+.header > p {
+  width: 2.4rem;
+  font-size: 0.46666667rem;
+  color: white;
+  margin: 0 auto;
+}
+.header > a {
+  float: right;
+  display: block;
+  width: 1.6rem;
+  color: white;
+  font-size: 0.4rem;
+}
+body {
+  background-color: #f1f1f1;
+}
+.search {
+  width: 100%;
+  height: 1.50666667rem;
+  background-color: #f1f1f1 ;
+  padding: 36px 45px 30px 45px;
+  box-sizing: border-box;
+}
+.search .box {
+  width: 8.82666667rem;
+  height: 0.62666667rem;
+  border: 1px solid #c1c1c1;
+  border-radius: 0.26666667rem;
+}
+.box input {
+  float: left;
+  background-color: transparent;
+  padding-left: 0.30666667rem;
+  width: 7.73333333rem;
+  height: 0.62666667rem;
+  outline: 0 none;
+  border: none;
+  font-size: 0.38666667rem;
+  text-align: center;
+  line-height: 0.65333333rem;
+  color: #8b8b8b;
+}
+.box i {
+  float: right;
+  margin-right: 0.17333333rem;
+  width: 0.48rem;
+  height: 0.62666667rem;
+  background-size: cover;
+  background: url("../images/search.png") no-repeat center;
+}
+.content {
+  padding-left: 0.53333333rem;
+  background-color: white;
+}
+.content li {
+  height: 1.01333333rem;
+  line-height: 1.01333333rem;
+  font-size: 0.37333333rem;
+  border-bottom: 1px solid #f1f1f1;
+}

@@ -1,0 +1,77 @@
+body {
+  background: white;
+}
+.add {
+  margin-bottom: 0.93333333rem;
+  box-sizing: border-box;
+}
+.p_top {
+  margin-bottom: 0.46666667rem;
+}
+.detail {
+  position: relative;
+}
+.detail input,
+.detail select {
+  width: 8rem;
+  height: 0.86666667rem;
+  font-size: 0.32rem;
+  border: none;
+  text-indent: 0.13333333rem;
+}
+.detail > span {
+  float: left;
+}
+.detail > div {
+  font-family: SimSun;
+  font-size: 0.32rem;
+  text-indent: 0.2rem;
+  width: 8rem;
+  height: 1rem;
+  line-height: 1rem;
+  float: left;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_nd4puzdldnc7syvi.eot');
+  src: url('//at.alicdn.com/t/font_nd4puzdldnc7syvi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_nd4puzdldnc7syvi.woff') format('woff'), url('//at.alicdn.com/t/font_nd4puzdldnc7syvi.ttf') format('truetype'), url('//at.alicdn.com/t/font_nd4puzdldnc7syvi.svg#iconfont') format('svg');
+  
+  /* project id 256507 */
+}
+.prove > span {
+  font-family: iconfont;
+  float: right;
+}
+.detail .p_list {
+  position: absolute;
+  top: 1rem;
+  left: 1.46666667rem;
+  width: 8rem;
+  border: 1px solid #dcdddd;
+  box-sizing: border-box;
+  display: none;
+  background: #fff;
+  max-height: 2rem;
+  overflow: auto;
+  z-index: 30;
+  text-indent: 0.4rem;
+}
+.s1 {
+  padding-left: 0.5333333rem;
+  font-size: 0.4rem;
+  color: #000;
+}
+select {
+  width: 8rem;
+  height: 0.86666667rem;
+  font-size: 0.32rem;
+  border: 0 none;
+  outline: none;
+  background: #ffffff;
+  color: #a9a9a9;
+}
+option {
+  font-size: 0.13333333rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}

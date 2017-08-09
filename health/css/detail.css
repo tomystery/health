@@ -1,0 +1,157 @@
+.add_bg1 {
+  background: url("../images/bg1.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 4.50666667rem;
+}
+.header {
+  height: 1.2rem;
+  box-sizing: border-box;
+  padding-top: 0.34666667rem;
+  padding-right: 0.26666667rem;
+  padding-left: 0.26666667rem;
+}
+.header span {
+  display: block;
+  width: 1.38666667rem;
+  float: left;
+  font-size: 0.46666667rem;
+  color: white;
+}
+.header > p {
+  width: 2.4rem;
+  font-size: 0.46666667rem;
+  color: white;
+  margin: 0 auto;
+}
+.header > a {
+  float: right;
+  display: block;
+  width: 0.56rem;
+  height: 0.52rem;
+  background: url("../images/t_back.png") no-repeat;
+  background-size: cover;
+}
+body {
+  background-color: white;
+}
+.wrap {
+  background-color: #f0efef;
+}
+.font1 {
+  padding-top: 0.30666667rem;
+  margin-bottom: 1.12rem;
+}
+.font1 span:nth-child(1) {
+  margin-left: 0.26666667rem;
+  float: left;
+  font-size: 0.61538462rem;
+}
+.font1 span:nth-child(2) {
+  margin-right: 0.26666667rem;
+  float: right;
+  font-size: 0.53333333rem;
+  color: red;
+}
+.detail {
+  width: 100%;
+  text-align: center;
+  font-size: 0.33333333rem;
+  margin-bottom: 0.33333333rem;
+}
+.bg2 {
+  width: 100%;
+  height: 6.69333333rem;
+  background: url("../images/bg2.png") no-repeat;
+  background-size: cover;
+}
+.font2 {
+  padding-top: 1.12rem;
+  width: 3.89333333rem;
+  margin: 0 auto;
+}
+.font2 p:nth-child(1) {
+  color: white;
+  font-size: 0.53333333rem;
+  text-align: center;
+  margin-bottom: 0.56rem;
+}
+.font2 p {
+  color: white;
+  font-size: 0.34666667rem;
+  text-align: center;
+  margin-bottom: 0.25333333rem;
+}
+.bg3 {
+  width: 100%;
+  height: 35.17333333rem;
+}
+.out_wrap {
+  width: 100%;
+  background-color: white;
+}
+.bottom {
+  width: 9.48rem;
+  margin: 0 auto;
+  padding-top: 0.30666667rem;
+}
+.bottom span:nth-child(1) {
+  font-size: 0.33333333rem;
+  padding-bottom: 0.29333333rem;
+}
+.item {
+  margin-bottom: 0.6rem;
+  position: relative;
+}
+.item p {
+  width: 1.42666667rem;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  text-align: center;
+  float: left;
+  font-size: 0.26666667rem;
+}
+.item .img1 {
+  float: left;
+  width: 3.88rem;
+  height: 1.48rem;
+}
+.item .img2 {
+  width: 1.29333333rem;
+}
+.item .img3 {
+  width: 1.29333333rem;
+  margin-left: 1.26666667rem;
+}
+.item .img {
+  float: left;
+  position: relative;
+}
+.item .plus {
+  width: 0.45333333rem;
+  height: 0.45333333rem;
+  background: url("../images/plus.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -0.42666667rem;
+  right: -0.33333333rem;
+}
+.car {
+  float: right;
+  width: 1.13333333rem;
+  height: 1.13333333rem;
+}
+.count {
+  font-size: 0.66666667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  display: block;
+  color: white;
+  background-color: #30a674;
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  bottom: 1.08rem;
+}

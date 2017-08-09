@@ -1,0 +1,137 @@
+body {
+  font-family: '宋体';
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.in {
+  background: #43bf92;
+}
+.rem {
+  height: 2.66666667rem;
+}
+.rem .box3 {
+  display: none;
+}
+.rem .custom {
+  display: none;
+}
+.header {
+  margin: 0.72rem;
+  font-size: 0.45333333rem;
+}
+.header img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.05333333rem;
+  width: 0.48rem;
+}
+.header .t_r {
+  float: left;
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #3c3f47;
+}
+.header .on {
+  color: #43bf92;
+}
+.header .t_l {
+  margin-left: 0.66666667rem;
+  float: left;
+  text-align: center;
+}
+.content {
+  padding-bottom: 3.33333333rem;
+}
+.content .t_top img {
+  margin: 0 auto;
+  padding-bottom: 0.45333333rem;
+  width: 0.98666667rem;
+}
+.content .s_tit {
+  padding-bottom: 0.26666667rem;
+  border-bottom: 0.04rem solid #43bf92;
+  line-height: 0.45333333rem;
+  font-size: 0.45333333rem;
+}
+.content .s_tit img {
+  display: inline-block;
+  width: 0.48rem;
+}
+.box2 {
+  padding: 0 0.73333333rem;
+}
+.s_tit span {
+  display: block;
+  margin-left: 0.26666667rem;
+}
+.box3 {
+  width: 100%;
+  margin-top: 0.58666667rem;
+  margin-bottom: 0.58666667rem;
+}
+.box3 input {
+  width: 0.37333333rem;
+  height: 0.37333333rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 0.02666667rem solid #43bf92;
+  border-radius: 0.06666667rem;
+}
+.box3 span {
+  border: 0.01333333rem solid #3c3f47;
+  font-size: 0.4rem;
+  padding: 0.06666667rem 0.26666667rem;
+  border-radius: 0.33333333rem;
+  margin-left: 0.06666667rem;
+  color: #525252;
+}
+.box3 tr {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.box3 tr td {
+  display: inline-block;
+  width: 48%;
+}
+.custom {
+  width: 2.86666667rem;
+  margin: 0.66666667rem auto;
+  font-size: 0.4rem;
+  color: #cccccc;
+  border: 1px solid #3c3f47;
+  border-radius: 0.53333333rem;
+  text-align: center;
+  line-height: 0.66666667rem;
+}
+.footer .active a {
+  color: #43bf92;
+  background-image: url('../images/privatein.png');
+  background-size: 0.8rem;
+}
+.footer li:nth-child(1) a {
+  background-image: url('../images/treein.png');
+  background-size: 0.73333333rem;
+}
+.footer li:nth-child(2) a {
+  background-image: url('../images/house.png');
+}
+.footer li:nth-child(4) a {
+  background-image: url('../images/my.png');
+}
+.shopping {
+  position: fixed;
+  bottom: 2.4rem;
+  right: 0.66666667rem;
+  cursor: pointer;
+}
+.shopping img {
+  width: 1.12rem;
+  height: 1.12rem;
+}

@@ -1,0 +1,81 @@
+body {
+  background: #f1f1f1;
+}
+a {
+  color: #262626;
+}
+.top {
+  height: 1.2rem;
+  background: #43bf92;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.toptext {
+  font-size: 0.48rem;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.content {
+  margin: 0.46666667rem 0;
+  background: #fff;
+  color: #444;
+}
+.title {
+  margin: 0.6rem 0;
+  background: #fff;
+  padding: 0.13333333rem 0.26666667rem;
+  font-size: 0.37333333rem;
+  color: #313131;
+  line-height: 1.53333333rem;
+}
+.title > img {
+  width: 1.53333333rem;
+  height: 1.53333333rem;
+}
+.title img,
+.title span {
+  display: block;
+  float: left;
+}
+.title span {
+  margin-left: 0.26666667rem;
+}
+.title .health {
+  color: #6c6c6c;
+  float: right;
+}
+.title .health img {
+  float: right;
+  margin-top: 33%;
+  margin-left: 0.13333333rem;
+  height: 0.32rem;
+}
+.content li,
+.mun {
+  font-size: 0.4rem;
+  line-height: 1rem;
+  padding: 0 0.13333333rem;
+  border-bottom: 0.01333333rem solid #f1f1f1;
+  padding: 0 0.4rem;
+  overflow: hidden;
+}
+.content li img,
+.content li span,
+.mun span,
+.mun img {
+  display: block;
+  float: left;
+}
+.mun {
+  background: #fff;
+  margin-bottom: 0.4rem;
+  border-bottom: none;
+}
+.content li img,
+.mun img {
+  height: 0.4rem;
+  margin-top: 0.30666667rem;
+  margin-right: 0.13333333rem;
+}

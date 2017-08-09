@@ -1,0 +1,147 @@
+.top {
+  height: 1.2rem;
+  background: #43bf92;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.top .comeback,
+.top .toptext,
+.comeback img {
+  float: left;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.top .over {
+  float: right;
+  font-size: 0.4rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  margin-right: 0.13333333rem;
+}
+.top .comeback {
+  font-size: 0.4rem;
+}
+.top .comeback img {
+  margin-top: 0.37333333rem;
+  margin-right: 0.13333333rem;
+}
+.toptext {
+  font-size: 0.48rem;
+  margin-left: 25%;
+}
+.content {
+  margin-bottom: 2.66666667rem;
+}
+.content .title {
+  font-size: 0.96rem;
+  color: #43bf92;
+  line-height: 1.73333333rem;
+  padding: 0.26666667rem 0.13333333rem;
+  text-align: center;
+  border-bottom: 1px solid #BEBEBE;
+}
+.content .title b {
+  color: #ff0000;
+  font-size: 0.96rem;
+}
+.content .article span {
+  color: #373737;
+  font-size: 0.32rem;
+  display: block;
+  margin-top: 0.06666667rem;
+}
+.content .article > img {
+  width: 4.53333333rem;
+  height: 2.93333333rem;
+  margin: 0.4rem auto;
+}
+.content .article b {
+  font-size: 0.32rem;
+  color: #55c5a1;
+  display: block;
+  line-height: 0.53333333rem;
+  text-align: justify;
+  margin-bottom: 0.86666667rem;
+}
+.content .article li {
+  font-size: 0.37333333rem;
+  color: #43BF92;
+  line-height: 1rem;
+}
+.content .article p {
+  font-size: 0.29333333rem;
+  color: #373737;
+  line-height: 0.53333333rem;
+  text-align: justify;
+}
+.content .article ul {
+  padding-bottom: 1.46666667rem;
+  border-bottom: 1px solid #BEBEBE;
+  margin: 0 0.06666667rem;
+}
+.recommend span {
+  font-size: 0.4rem;
+}
+.recommend .recipes {
+  font-size: 0.26666667rem;
+  overflow: hidden;
+}
+.recommend a {
+  vertical-align: middle;
+  display: block;
+  float: left;
+  line-height: 1.46666667rem;
+  font-size: 0.26666667rem;
+  width: 1.6rem;
+  text-align: center;
+}
+.recommend .recipes img {
+  width: 4rem;
+  height: 1.46666667rem;
+  float: left;
+}
+.product {
+  margin-top: 0.66666667rem;
+}
+.productbox {
+  float: left;
+  position: relative;
+}
+.productbox .box {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  border: 1px solid green;
+  margin-right: 1.33333333rem;
+}
+.productbox .add {
+  width: 0.46666667rem;
+  height: 0.46666667rem;
+  position: absolute;
+  top: -0.46666667rem;
+  right: 1.06666667rem;
+}
+.product .buycar {
+  float: right;
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+}
+.product .count {
+  font-size: 0.66666667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  display: block;
+  color: white;
+  background-color: #30a674;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -0.26666667rem;
+}
+.product .shopping {
+  display: block;
+  position: absolute;
+  right: 0.26666667rem;
+}

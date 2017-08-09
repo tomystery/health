@@ -1,0 +1,85 @@
+body {
+  background: #f1f1f1;
+  font-size: 0.4rem;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.calendar {
+  height: 10.4rem;
+  border: 1px solid red;
+  background: #fff;
+}
+.calendar .title {
+  margin-top: 0.93333333rem;
+  text-align: center;
+  color: #525353;
+  border-bottom: 1px solid #d1d2d1;
+  padding-bottom: 0.13333333rem;
+}
+.calendar span {
+  display: block;
+  width: 0.86666667rem;
+  height: 0.86666667rem;
+  float: left;
+  margin: 0.26666667rem 0.2rem;
+  color: #525353;
+  text-align: center;
+  line-height: 0.86666667rem;
+}
+.calendar .week > span {
+  color: #b5b7b6;
+}
+.on {
+  border-radius: 100%;
+  background: #43bf93;
+  color: #fff!important;
+}
+.content {
+  margin-top: 0.66666667rem;
+  padding-top: 0.66666667rem;
+  padding-bottom: 2.66666667rem;
+  background: #fff;
+}
+.content li {
+  font-size: 0.4rem;
+  line-height: 0.66666667rem;
+  padding: 0 0.13333333rem;
+  padding: 0 0.4rem;
+  overflow: hidden;
+  margin-bottom: 0.66666667rem;
+}
+.content li img,
+.content li span {
+  display: block;
+  float: left;
+}
+.content li img {
+  height: 0.66666667rem;
+  margin: 0 0.4rem;
+}
+.content .more {
+  float: right;
+  height: 0.4rem;
+  margin-top: 0.13333333rem;
+}
+.buycar {
+  position: fixed;
+  bottom: 1.86666667rem;
+  right: 0.66666667rem;
+}
+.footer .active a {
+  color: #43bf92;
+  background-image: url('../images/privatein.png');
+  background-size: 0.8rem;
+}
+.footer li:nth-child(1) a {
+  background-image: url('../images/treein.png');
+  background-size: 0.73333333rem;
+}
+.footer li:nth-child(2) a {
+  background-image: url('../images/house.png');
+}
+.footer li:nth-child(4) a {
+  background-image: url('../images/my.png');
+}

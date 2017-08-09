@@ -1,0 +1,83 @@
+.header img {
+  float: left;
+  width: 0.4rem;
+  height: 0.64rem;
+  margin-top: -0.04rem;
+}
+.header {
+  height: 1.2rem;
+  box-sizing: border-box;
+  background-color: #43bf92;
+  padding-top: 0.34666667rem;
+  padding-left: 0.26666667rem;
+  padding-right: 0.26666667rem;
+}
+.header span {
+  display: block;
+  width: 1.38666667rem;
+  float: left;
+  font-size: 0.38666667rem;
+  color: white;
+}
+.header > p {
+  width: 2.4rem;
+  font-size: 0.46666667rem;
+  color: white;
+  margin: 0 auto;
+}
+.header > a {
+  float: right;
+  display: block;
+  width: 1.6rem;
+  color: white;
+  text-align: right;
+  font-size: 0.4rem;
+}
+body {
+  background-color: #f1f1f1;
+}
+.content {
+  width: 100%;
+  background-color: white;
+}
+.content_wrap {
+  width: 9.2rem;
+  margin: 0.4rem auto;
+}
+.img1 {
+  padding-top: 0.13333333rem;
+  width: 100%;
+  height: 1.33333333rem;
+  box-sizing: border-box;
+}
+.img1 img {
+  float: left;
+  width: 1.08rem;
+  margin-right: 0.22666667rem;
+}
+.img1 span {
+  float: left;
+  width: 0.8rem;
+  display: block;
+  line-height: 1.33333333rem;
+  height: 1.2rem;
+  font-size: 0.37333333rem;
+  color: #111111;
+}
+.img1 i {
+  height: 1.2rem;
+  line-height: 1.33333333rem;
+  float: right;
+  font-size: 0.4rem;
+}
+.img1 p {
+  float: right;
+  width: 1.6rem;
+  margin-left: 4.85333333rem;
+  height: 1.2rem;
+  line-height: 1.33333333rem;
+  font-size: 0.36rem;
+}
+.img2 {
+  border-top: 1px solid #e8e8e8;
+}

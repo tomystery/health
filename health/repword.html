@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>修改密码</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/repword.css" />
+</head>
+<body>
+	<div class="top">
+		<div class="warp clearfix">
+			<div class="comeback">
+				<a href="pwdZH.html" style="color:white"><img src="images/comeback.png" />
+				返回
+					</a>
+			</div>
+			<div class="toptext">重置密码</div>
+		</div>
+	</div>
+	<form action="getIn.html">
+	<div class="wrap">
+		<input type="password" placeholder="请输入新密码" class="psd">
+		<p class="sp"> 8-17位的任意字母、数字、下划线</p>
+		<input type="password" placeholder="确认密码" class="repsd">
+		<p class="rep">与密码不一致，请再次确认</p>
+		<input type="text" placeholder="验证码" class="code">
+		<span class="omg"></span>
+		<a href="#" class="what">看不清，换一张</a>
+		<button>完成</button>
+	</div>
+	</form>
+	
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/public.js" ></script>
+	<script type="text/javascript" src="js/repword.js"></script>
+</body>
+</html>

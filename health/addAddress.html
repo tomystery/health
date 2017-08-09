@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新建收货地址</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/family.css"/>
+    <link rel="stylesheet" href="css/addAddress.css"/>
+</head>
+<body>
+<div class="p_top">
+    <a href="address.html">返回</a>
+    <span>新增收货地址</span>
+</div>
+<div class="add">
+    <div class="name detail">
+        <span>姓名</span>
+        <input type="text" placeholder="最少两个字，最多十二个字" name="uname"/>
+    </div>
+    <div class="disease detail">
+        <span>电话</span>
+        <input type="text" placeholder="最少七位数" name="tell"/>
+    </div>
+    <p>
+        <span class="s1">省份</span>
+        <select>
+            <option value="">省份</option>
+        </select>
+    </p>
+
+    <span class="s1">
+        城市
+    </span>
+    <select>
+        <option value="">城市</option>
+    </select>
+   <span class="s1">
+       地区
+   </span>
+    <select>
+        <option value="">地区</option>
+    </select>
+    <div class="name detail">
+        <span>地址</span>
+        <input type="text" placeholder="最少两个字，最多十二个字" name="address1"/>
+    </div>
+    <div class="name detail">
+        <span>邮编</span>
+        <input type="text" placeholder="输入六位数" name="email"/>
+    </div>
+</div>
+<button class="finish">保存并使用</button>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/addAddress.js"></script>
+</html>

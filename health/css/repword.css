@@ -1,0 +1,90 @@
+.top {
+  height: 1.2rem;
+  background: #43bf92;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.wrap {
+  margin: 0 0.8rem;
+}
+.top .comeback,
+.top .toptext,
+.comeback img {
+  float: left;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.top .over {
+  float: right;
+  font-size: 0.4rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  margin-right: 0.13333333rem;
+}
+.top .comeback {
+  font-size: 0.4rem;
+}
+.top .comeback img {
+  margin-top: 0.37333333rem;
+  margin-right: 0.13333333rem;
+}
+.toptext {
+  font-size: 0.48rem;
+  margin-left: 25%;
+}
+.wrap span {
+  width: 1.6rem;
+  height: 0.66666667rem;
+  background: #43bf92;
+  font-size: 0.33333333rem;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  line-height: 0.66666667rem;
+  color: #4b4b4b;
+  margin-top: 0.86666667rem;
+}
+input,
+code {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #43bf92;
+  font-size: 0.4rem;
+  outline: none;
+}
+.sp,
+.rep {
+  display: none;
+}
+.wrap .code {
+  width: 2rem;
+  margin-top: 1.06666667rem;
+}
+.wrap a {
+  font-size: 0.32rem;
+  color: #4b4b4b;
+  margin-top: 1.13333333rem;
+  margin-left: 0.13333333rem;
+}
+.wrap a,
+.code,
+.wrap span {
+  float: left;
+}
+button {
+  width: 100%;
+  line-height: 0.93333333rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: #43bf92;
+  font-size: 0.48rem;
+  color: #fff;
+  border-radius: 0.13333333rem;
+  margin-top: 1.33333333rem;
+}
+p {
+  font-size: 0.32rem;
+  color: red;
+}

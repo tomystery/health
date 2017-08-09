@@ -1,0 +1,84 @@
+body {
+  background: #f1f1f1;
+}
+.top {
+  height: 1.2rem;
+  background: #43bf92;
+}
+.warp {
+  margin: 0 0.25333333rem;
+}
+.top .close,
+.top .toptext,
+.close img {
+  float: left;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.top .share {
+  float: right;
+  margin-top: 0.30666667rem;
+}
+.top .close {
+  font-size: 0.4rem;
+}
+.top .close img {
+  margin-top: 0.42666667rem;
+  margin-right: 0.13333333rem;
+}
+.toptext {
+  font-size: 0.48rem;
+  margin-left: 25%;
+}
+.textResult {
+  margin: 0.21333333rem 0;
+  background: #FFFFFF;
+  padding: 1.33333333rem;
+}
+.textResult h4 {
+  font-size: 0.37333333rem;
+  text-align: center;
+  line-height: 0.93333333rem;
+}
+.textResult .text {
+  font-size: 0.29333333rem;
+  line-height: 0.53333333rem;
+}
+.textResult .hr1 {
+  width: 2.2rem;
+  float: left;
+}
+.textResult .hr2 {
+  width: 2.2rem;
+  float: right;
+}
+.resultend {
+  color: #bebebe;
+  font-size: 0.26666667rem;
+  margin: 0 0.6rem;
+  margin-top: 2rem;
+}
+.recommend {
+  background: #FFFFFF;
+}
+.recommend h3 {
+  line-height: 0.8rem;
+  font-size: 0.34666667rem;
+}
+.munebox {
+  margin: 0 0.2rem;
+}
+.mune {
+  float: left;
+  margin: 0 0.26666667rem;
+}
+.mune img {
+  width: 4rem;
+  height: 1.73333333rem;
+}
+.mune .title {
+  font-size: 0.26666667rem;
+  text-align: center;
+  margin-top: 0.26666667rem;
+  margin-bottom: 0.66666667rem;
+}

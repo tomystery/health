@@ -1,0 +1,123 @@
+body {
+  background-color: #f1f1f1;
+}
+.box2 {
+  padding: 0 0.4rem;
+}
+.box {
+  padding: 0 0.26666667rem;
+}
+/*头部开始*/
+.header {
+  background-color: #43bf92;
+}
+.header li {
+  float: left;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  width: 33%;
+}
+.header .left img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.06666667rem;
+}
+.header .conter {
+  text-align: center;
+  font-size: 0.48rem;
+}
+/*内容开始*/
+/*导航开始*/
+.my_top {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+}
+.my_top p {
+  padding: 0.2rem 0;
+}
+.nav {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.nav li {
+  float: left;
+  width: 15%;
+  text-align: center;
+  line-height: 0.90666667rem;
+  margin-right: 5%;
+}
+.pitch {
+  border-bottom: 3px solid #43bf92;
+}
+/*订单内容*/
+.icon {
+  float: left;
+}
+.icon img {
+  width: 2.01333333rem;
+  height: 1.74666667rem;
+  margin: 0.2rem 0;
+}
+.int {
+  margin-left: 2.4rem;
+  padding: 0.2rem 0;
+}
+.int span {
+  font-size: 0.26666667rem;
+  width: 3.46666667rem;
+  display: inline-block;
+  line-height: 0.42666667rem;
+}
+.int .rr {
+  height: 0.33333333rem;
+  width: 2.93333333rem;
+  display: inline-block;
+  text-align: right;
+}
+.int .names {
+  font-size: 0.4rem;
+}
+.int .count {
+  display: block;
+  width: 97%;
+}
+.int .Ret {
+  width: 1.33333333rem;
+  border: 1px solid #a40000;
+  font-size: 0.26666667rem;
+  height: 0.33333333rem;
+  line-height: 0.33333333rem;
+  border-radius: 0.06666667rem;
+  color: #a40000;
+  text-align: center;
+}
+.con {
+  background-color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.mes p {
+  text-align: right;
+  line-height: 0.90666667rem;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 0.29333333rem;
+}
+.opt {
+  padding: 0.18666667rem 0;
+}
+.opt span {
+  float: right;
+  border: 2px solid #8f8f8f;
+  padding: 0.08rem 0.18666667rem;
+  font-size: 0.26666667rem;
+  border-radius: 0.09333333rem;
+  margin-left: 0.26666667rem;
+}
+.opt .cc {
+  background-color: #43bf92;
+  border: 2px solid #43bf92;
+  color: #ffffff;
+}

@@ -1,0 +1,113 @@
+.warp {
+  margin: 0 0.25333333rem;
+}
+body {
+  font-family: '����';
+}
+.header {
+  margin: 0.72rem;
+  font-size: 0.45333333rem;
+}
+.header img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.05333333rem;
+  width: 0.66666667rem;
+}
+.header .t_r {
+  float: left;
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #3c3f47;
+}
+.header .on {
+  color: #43bf92;
+}
+.header .t_l {
+  margin-left: 0.66666667rem;
+  float: left;
+  text-align: center;
+}
+.content {
+  margin-bottom: 2.66666667rem;
+}
+.content li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #B4B4B4;
+}
+.content li > img {
+  width: 3.73333333rem;
+}
+.nominate img,
+.nominate span,
+li > img,
+.substance {
+  float: left;
+  display: block;
+}
+.nominate span {
+  margin-bottom: 0.13333333rem;
+  font-size: 0.32rem;
+}
+.nominate span b {
+  font-size: 0.37333333rem;
+  font-weight: bold;
+  margin: 0 0.06666667rem;
+}
+.content li .substance {
+  margin-left: 0.46666667rem;
+  color: #6d6d6d;
+}
+.content li .pname {
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+.content li p {
+  margin: 0.46666667rem 0;
+  font-size: 0.32rem;
+}
+.content li .price {
+  font-size: 0.4rem;
+  color: #d16c34;
+  font-weight: bold;
+}
+.footer .active a {
+  color: #43bf92;
+  background-image: url('../images/privatein.png');
+  background-size: 0.8rem;
+}
+.footer li:nth-child(1) a {
+  background-image: url('../images/treein.png');
+  background-size: 0.73333333rem;
+}
+.footer li:nth-child(2) a {
+  background-image: url('../images/house.png');
+}
+.footer li:nth-child(4) a {
+  background-image: url('../images/my.png');
+}
+.shopping {
+  position: fixed;
+  bottom: 2.4rem;
+  right: 0.66666667rem;
+  cursor: pointer;
+}
+.shopping img {
+  width: 1.12rem;
+  height: 1.12rem;
+}
+.count {
+  font-size: 0.46666667rem;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+  text-align: center;
+  line-height: 0.66666667rem;
+  display: block;
+  color: white;
+  background-color: #30a674;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -0.2rem;
+  float: right;
+}

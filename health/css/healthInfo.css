@@ -1,0 +1,55 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  font-family: '����';
+  color: #000000;
+  background: #f1f1f1;
+}
+.header {
+  background: #43bf92;
+  font-size: 0.48rem;
+  color: white;
+}
+.header .return {
+  padding: 0 0.26666667rem;
+}
+.header li {
+  line-height: 1.2rem;
+  padding-right: 2.4rem;
+}
+.header a {
+  color: white;
+}
+.header .return img {
+  width: 0.4rem;
+  height: 0.64rem;
+  padding-top: 0.26666667rem;
+}
+.content img {
+  width: 1.53333333rem;
+  height: 1.53333333rem;
+  margin: 0.73333333rem auto;
+}
+.content div {
+  height: 1rem;
+  background: #fff;
+  padding: 0 0.66666667rem 0 0.33333333rem;
+}
+.content .one {
+  border-bottom: 0.01333333rem solid #f1f1f1;
+}
+.content a {
+  display: block;
+  font-size: 0.37333333rem;
+  line-height: 1rem;
+  color: #000000;
+}
+.content h5 {
+  padding: 0.66666667rem 0 0.26666667rem 0;
+  font-size: 0.4rem;
+  text-align: center;
+}

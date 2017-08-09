@@ -1,0 +1,45 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  font-family: '宋体';
+  font-size: 0.34666667rem;
+  background: #f1f1f1;
+}
+.header {
+  background: #43bf92;
+  font-size: 0.48rem;
+  color: white;
+}
+.header .return {
+  padding: 0 0.26666667rem;
+}
+.header li {
+  line-height: 1.2rem;
+  padding-right: 2.4rem;
+}
+.header a {
+  color: white;
+}
+.header .return img {
+  width: 0.4rem;
+  height: 0.64rem;
+  padding-top: 0.26666667rem;
+}
+.content {
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+.content .wrap {
+  padding: 0 0.26666667rem;
+}
+.content li {
+  line-height: 1.2rem;
+  border-bottom: 0.01333333rem solid #e8e8e8;
+}
+.content a {
+  color: #1f1f1f;
+}

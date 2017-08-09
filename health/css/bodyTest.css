@@ -1,0 +1,51 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*头部*/
+.header {
+  height: 1.2rem;
+  background: #43bf92;
+  font-size: 0.48rem;
+}
+.header ul {
+  padding: 0 0.26666667rem;
+}
+.header li {
+  line-height: 1.2rem;
+}
+.header .getup {
+  width: 3.13333333rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.header .getup a {
+  display: block;
+  color: white;
+}
+.header .getup img {
+  width: 0.48rem;
+  height: 0.49333333rem;
+  padding-top: 0.33333333rem;
+}
+.con {
+  padding: 0 0.53333333rem;
+  font-size: 0.33333333rem;
+  color: #111111;
+}
+.con .question {
+  border-bottom: 0.01333333rem solid #c3c3c3;
+  padding-bottom: 0.4rem;
+}
+.con .chose {
+  cursor: pointer;
+}
+.con .chose li {
+  padding-bottom: 0.26666667rem;
+  outline: none;
+}
+.con p {
+  margin: 0.66666667rem 0;
+}

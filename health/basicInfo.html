@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>基础信息</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/basicInfo.css" />
+</head>
+<body>
+	<div class="top">
+		<div class="warp clearfix">
+			<div class="comeback">
+				<img src="images/comeback.png" />
+				<a href="healthInfo.html" style="color:white">返回</a>
+			</div>
+			<div class="toptext">基础信息</div>
+			<div class="over"><a href='familyAndFriend.html' style="color:white">完成</a> </div>
+		</div>
+	</div>
+	<div class="content">
+		<ul class="warp">
+			<li>名字
+				<input type="text" placeholder="点击输入"/>
+			</li>
+			<li class="clearfix">生日<img src="images/moreright.png" class="fr"/></li>
+			<li>性别
+				<div class="allbtn">
+					<div class="btn on">男</div>
+					<div class="btn">女</div>
+				</div>
+			</li>
+			<li class="clearfix">城市<img src="images/moreright.png" class="fr"/></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/public.js" ></script>
+	<script>
+		var btn=$('.allbtn .btn');
+		btn.click(function(){
+			$(this).addClass('on').siblings().removeClass('on');
+		});
+	</script>
+</body>
+</html>

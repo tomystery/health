@@ -1,0 +1,70 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  color: #fff;
+}
+.header {
+  background: #43bf92;
+  font-size: 0.48rem;
+  color: white;
+}
+.header .return {
+  padding: 0 0.26666667rem;
+}
+.header li {
+  line-height: 1.2rem;
+  padding-right: 2.4rem;
+}
+.header a {
+  color: white;
+}
+.header .return img {
+  width: 0.4rem;
+  height: 0.64rem;
+  padding-top: 0.26666667rem;
+}
+.content .con {
+  padding: 0 0.66666667rem;
+}
+.content a {
+  display: block;
+  background: #43bf92 ;
+  width: 1.6rem;
+  height: 0.73333333rem;
+  color: #fff;
+  font-size: 0.34666667rem;
+  text-align: center;
+  line-height: 0.73333333rem;
+  border-radius: 0.4rem;
+  margin: 0.13333333rem 0;
+}
+.content .food {
+  position: relative;
+  margin-bottom: 0.26666667rem;
+  cursor: pointer;
+}
+.content .dinner {
+  margin-bottom: 0;
+}
+.content img {
+  width: 8.66666667rem;
+  height: 2.02666667rem;
+}
+.content .cover {
+  width: 8.66666667rem;
+  height: 2.02666667rem;
+  background: rgba(128, 128, 128, 0.7);
+  position: absolute;
+  top: 0;
+}
+.content p {
+  position: absolute;
+  font-size: 0.57333333rem;
+  top: 35%;
+  transform: translate(-50%);
+  left: 50%;
+}

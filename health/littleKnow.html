@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>小常识</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/littleKnow.css" />
+</head>
+<body>
+	<div class="top">
+		<div class="warp clearfix">
+			<div class="comeback">
+				<a href="pageHome.html" style="color: #FFFFFF;">
+					<img src="images/comeback.png" />
+					返回
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="content warp">
+		<div class="title">八大零食安全<b>隐患</b>，你中了几个？</div>
+		<div class="article">
+			<span>作者：王焱</span>
+			<img src="images/xcs-1.png" />
+			<b>你是重度零食依赖者吗？无论看书看片，心情好的时候，还是心情不好的时候，无论忙的时候还是闲的时候，嘴巴可都没闲过！吃吃喝喝本是人生常态，要不我们为什么要活着！可是如今零食里的添加剂越来越多，即使很多标榜「安全」的零食，也存在很多隐患。一定要擦亮眼睛哎呀！</b>
+			<ul>
+				<li>1.乳饮料
+					<p>其实没啥蛋白质。乳饮料≠奶！依据国家标准奶中的蛋白质含量不得低于2.5g／100ml，而乳饮料或乳酸菌饮料蛋白质含量不得低于1g／100ml。乳饮料不能代替奶。有些乳饮料中含有乳酸菌，可以滋润肠道，但每天不宜多喝，不能代替水。所以喝牛奶相关的饮料，一定要看配料表，配料表的成分都是由大到小排的，如果乳饮料第一位是水，我觉得吧，就当水喝吧。别指望有多少蛋白质。</p>
+				</li>
+				<li>2.果汁
+					<p>主要是含糖量过高。  现在很多维生素果汁饮料含糖量普遍较高，一些饮料含糖量为7.5g／100g，那么一瓶300ml的饮品仅含糖量贡献的热量就有90千卡，建议每天不要超过1瓶。  果汁中的VC含量不能代替新鲜水果或鲜榨果汁，在生产过程中会加入人工VC</p>
+				</li>
+				<li>3.冰品
+					<p>细菌总数很可能超标。  吃冰品不能贪多，用餐前两小时、睡前、剧烈运动大量流汗之后，会刺激肠胃黏膜引起痉挛、溃疡等疾病。女生大姨妈期间禁止食用！冰品细菌容易超标，选择品牌很重要。自己做也要注意密封冷冻。</p>
+				</li>
+				<li>4.薯片
+					<p>过多的铝摄入妨碍人体对矿物质吸收。  大家都知道薯片会增肥，因为它的脂肪含量、盐分较高。整包都吃下去的时候，你的血压会升高。老也吃薯片，吃得过多会导致肥胖、高血压、糖尿病等。油炸食品会致癌，长期摄入会像吸烟一样长期积累毒素，能戒掉还是戒掉吧。不能戒，也要少吃点。</p>
+				</li>
+			</ul>
+			<div class="recommend clearfix" >
+				<span>为你推荐</span>
+				<div class="recipes">
+					<a>食谱</a>
+					<img src="images/xcs-2.png"/>
+				</div>
+				<div class="product">
+					<a>单品</a>
+					<div class="productbox clearfix">
+						<img src="images/xcs-3.png" alt="" class="box"/>
+						<img src="images/sadd.png" class="add"/>
+					</div>
+					<a href="shoppingCar.html" class="clearfix shopping">
+						<img src="images/buycar.png"  class="buycar"/>
+						<span class="count">0</span>
+					</a>
+
+					<div class="productbox">
+						<img src="images/xcs-4.png" alt=""  class="box"/>
+						<img src="images/sadd.png" class="add"/>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/public.js" ></script>
+	<script>
+	var count=$('.count').html();
+	$('.add').click(function(){
+		++count;
+		$('.count').html(count);
+	})
+</script>
+
+</body>
+</html>

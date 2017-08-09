@@ -1,0 +1,118 @@
+/*头部开始*/
+body {
+  font-family: '宋体';
+  font-size: 0.34666667rem;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.box {
+  padding: 0 0.26666667rem;
+}
+.header {
+  background: #43bf92;
+  font-size: 0.48rem;
+  color: white;
+}
+.header .return {
+  padding: 0 0.26666667rem;
+}
+.header li {
+  line-height: 1.2rem;
+  padding-right: 2.4rem;
+}
+.header a {
+  color: white;
+}
+.header .return img {
+  width: 0.4rem;
+  height: 0.64rem;
+  padding-top: 0.26666667rem;
+}
+/*内容开始*/
+.content {
+  padding-top: 0.4rem;
+  background-color: #ffffff;
+}
+.cc {
+  background-color: #f1f1f1;
+  line-height: 1.09333333rem;
+}
+.cc div {
+  padding-top: 0.2rem;
+}
+.ind_l {
+  float: left;
+  margin-top: 0.33333333rem;
+}
+.ind_r {
+  float: left;
+  width: 7.2rem;
+  margin-left: 0.4rem;
+  display: inline-block;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  margin-top: 0.13333333rem;
+}
+.ind_r > p {
+  display: block;
+  margin-bottom: 1.06666667rem;
+}
+.address {
+  width: 7.6rem;
+}
+.rr {
+  float: right;
+  color: #1f1f1f;
+}
+.price {
+  margin-left: 0.4rem;
+}
+.ind > li {
+  width: 100%;
+}
+.dian {
+  display: inline-block;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  background-color: #444444;
+  border-radius: 50%;
+  margin: 0.26666667rem auto;
+}
+.dian1 {
+  display: inline-block;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  background-color: #43bf92;
+  border-radius: 50%;
+  margin: 0.26666667rem auto;
+}
+.zz {
+  display: inline-block;
+  margin-left: 0.26666667rem;
+}
+.zz p {
+  line-height: 0.6rem;
+}
+.mbox {
+  padding-bottom: 0.26666667rem;
+  padding-top: 0.26666667rem;
+  border-bottom: 1px solid #cacaca;
+}
+.mbox1 {
+  color: #43bf92;
+}
+.ind .btn {
+  display: block;
+  width: 75%;
+  text-align: center;
+  background: #43bf92;
+  line-height: 1.01333333rem;
+  border-radius: 0.26666667rem;
+  font-size: 0.45333333rem;
+  color: #ffffff;
+  margin: 0.8rem auto;
+}
